@@ -19,8 +19,8 @@ You can
 ## Use
 
 ```F#
-// open SystexJson.FSharpConverters
-// open System.Text.Json
+open SystexJson.FSharpConverters
+open System.Text.Json
 
 type ExampleType =
     {
