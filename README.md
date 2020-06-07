@@ -39,3 +39,7 @@ let value = { Value = Some "Hi" }
 let json = JsonSerializer.Serialize (value, options)
 let valueAfter = JsonSerializer.Deserialize<ExampleType> (json, options)
 ```
+
+## Contribute
+
+Pull Requests are always welcome ;)
