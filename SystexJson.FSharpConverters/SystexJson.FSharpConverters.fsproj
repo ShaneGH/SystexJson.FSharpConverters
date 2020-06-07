@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <DefaultNamesoace>SystexJson.FSharpConverters</DefaultNamesoace>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <Owner>Shane Connon</Owner>
+    <Authors>Shane Connon</Authors>
+    <Description>System.Text.Json JsonConverters for F# types</Description>
+    <Copyright>Copyright (c) 2020 Shane Connon</Copyright>
+    <PackageSummary>System.Text.Json JsonConverters for F# types</PackageSummary>
+    <Title>System.Text.Json converters for F#</Title>
+    <PackageId>SystexJson.FSharpConverters</PackageId>
+    <PackageTags>F# FSharp System.Text.Json Json JsonConverter</PackageTags>
+    <!--<PackageIcon>packageIcon.png</PackageIcon>-->
+    <PackageProjectUrl>https://github.com/ShaneGH/SystexJson.FSharpConverters</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FSharpConverters.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Include="../LICENSE" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+</Project>
